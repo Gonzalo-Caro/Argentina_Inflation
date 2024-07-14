@@ -1,1 +1,3 @@
-# Argentina_Inflation
+# BCRA
+ Análisis de la inflación en Argentina entre los periodos 1960-2023. Desde el punto de vista de la Teoría Cuantitativa del Dinero, aumentos prolongados de la oferta monetaria son la principal causa de los crecimientos en el nivel de precios. Dado que el crecimiento de la producción real, así cómo la demanda de dinero (inversa de la velocidad del dinero) son factores que también afectan a los incrementos en el nivel de precios, el análisis incluirá estas variables con el fin de poder explicar las altas tasas de inflación en Argentina para el periodo estudiado.
+ 
