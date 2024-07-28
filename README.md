@@ -60,7 +60,7 @@ A correlation matrix was also constructed to explore the relationships between v
 5. Random Forest Analysis
     To account for potential non-linear relationships and outliers, a Random Forest model was employed. This model achieved an R-squared value of 0.81, with a mean squared error of 0.033. While the R-squared is slightly lower than that of the linear regression, the Random Forest model's ability to handle complex interactions and outliers provides additional validation of the strong linkage between money supply and inflation. The results from the Random Forest analysis also suggest that, even when considering potential non-linearities, the main driver of inflation remains changes in the money supply.
 
-Conclusion
+6. Conclusion
     The results of this analysis provide robust evidence that changes in the money supply have a significant impact on inflation in Argentina. The findings suggest that Argentina's historical episodes of high inflation can be largely attributed to periods of rapid money supply growth, often driven by expansionary monetary policies. While inflation has been increasingly rising alongside the money supply, this trend has not been mirrored in real GDP growth, which has remained relatively constant at around 2.33%. This indicates that monetary expansions are primarily translating into higher inflation and a loss of confidence in the local currency, rather than stimulating real economic growth.
 
 
