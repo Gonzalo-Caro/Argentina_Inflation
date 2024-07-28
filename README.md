@@ -40,27 +40,33 @@ A correlation matrix was also constructed to explore the relationships between v
 ## Results
 
 1. Linear Regression Analysis
+
     The linear regression analysis was conducted to examine the relationship between Broad Money (money supply) and inflation. The regression results indicate a strong positive correlation between these two variables, as evidenced by an R-squared value of 0.92. This suggests that 92% of the variance in inflation can be explained by changes in the money supply.
 
     The estimated coefficient for Broad Money in the regression model is approximately 1.015. This implies that a 1% increase in the growth rate of the money supply is associated with an approximate 1.015% increase in the inflation rate. This strong correlation underscores the significant impact of changes in the money supply on inflation rates in Argentina.
 
 2. Implications of Monetary Policy
+
     The results of the regression analysis have important implications for monetary policy in Argentina. The strong relationship between money supply growth and inflation suggests that loose monetary policies—such as those that rapidly increase the money supply—can lead to substantial inflationary pressures. 
 
     Policymakers must, therefore, consider the implications of expanding the money supply too rapidly. While such policies might aim to stimulate economic growth, data showed that no correlation existed between expanding money supply and real GDP growth in the long term. However, they can lead to runaway inflation if not carefully managed. The data suggests a need for more disciplined monetary policies to avoid exacerbating inflationary pressures, which can erode purchasing power and destabilize the economy.
 
 3. Velocity of Money
+
     An interesting aspect of the data analysis involves the velocity of money, which measures how frequently money is exchanged in an economy. The analysis of the velocity of money in Argentina shows that it has varied significantly over time, reflecting changes in economic activity and confidence in the currency.
 
     The correlation matrix indicated that the velocity of money did not have a strong direct correlation with inflation or GDP growth. This suggests that while the velocity of money can fluctuate, its direct impact on inflation may be less significant compared to the influence of money supply growth itself. However, it's important to consider that changes in velocity can still play a crucial role, especially in contexts where changes in money supply are not as pronounced or during periods of hyperinflation.
 
 4. Granger Causality Test
+
     The Granger causality test further confirmed that changes in the money supply Granger-cause changes in inflation, particularly when considering one or two lags. This finding indicates a predictive relationship where past values of the money supply can help forecast future inflation rates. The robustness of this result across both training and test datasets strengthens the argument that money supply growth is a key determinant of inflation in Argentina.
 
 5. Random Forest Analysis
+
     To account for potential non-linear relationships and outliers, a Random Forest model was employed. This model achieved an R-squared value of 0.81, with a mean squared error of 0.033. While the R-squared is slightly lower than that of the linear regression, the Random Forest model's ability to handle complex interactions and outliers provides additional validation of the strong linkage between money supply and inflation. The results from the Random Forest analysis also suggest that, even when considering potential non-linearities, the main driver of inflation remains changes in the money supply.
 
 6. Conclusion
+
     The results of this analysis provide robust evidence that changes in the money supply have a significant impact on inflation in Argentina. The findings suggest that Argentina's historical episodes of high inflation can be largely attributed to periods of rapid money supply growth, often driven by expansionary monetary policies. While inflation has been increasingly rising alongside the money supply, this trend has not been mirrored in real GDP growth, which has remained relatively constant at around 2.33%. This indicates that monetary expansions are primarily translating into higher inflation and a loss of confidence in the local currency, rather than stimulating real economic growth.
 
 
